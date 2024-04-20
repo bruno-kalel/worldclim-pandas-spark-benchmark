@@ -5,7 +5,7 @@
 ![Static Badge](https://img.shields.io/badge/apache%20parquet-%2350ABF1?style=for-the-badge&logo=apacheparquet&logoColor=white)
 
 # Benchmark de Carregamento e Consulta de Dados Climáticos com Pandas e Spark
-Este projeto tem como objetivo realizar um benchmark de carregamento da base e de consulta de dados climáticos da WorldClim utilizando as bibliotecas Pandas e Spark DataFrame para processamento de dados em diferentes escalas de resolução.
+Este projeto tem como objetivo realizar um benchmark de carregamento da base e de consulta de dados climáticos da WorldClim utilizando Pandas e Apache Spark para processamento de dados em diferentes escalas de resolução.
 
 ## Contexto
 A WorldClim disponibiliza dados climáticos globais em diferentes resoluções espaciais. Neste projeto, foram utilizados dados de precipitação em resoluções de 10m, 5m e 2.5m. A análise é conduzida comparando o desempenho e a escalabilidade entre Pandas DataFrame (processamento não-distribuído) e Spark DataFrame (processamento distribuído) no carregamento da base e na execução de consultas.
