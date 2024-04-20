@@ -14,7 +14,7 @@ A WorldClim disponibiliza dados climáticos globais em diferentes resoluções e
 * *Download e Conversão de Dados*: Os dados da WorldClim foram baixados em formato raster e convertidos para arquivos CSV utilizando a ferramenta raster2xyz.
 * *Benchmark de Carregamento*: Avaliou-se o tempo de carregamento dos dados utilizando Pandas e Spark DataFrame.
 * *Benchmark de Consulta*: Avaliou-se o tempo de execução de consultas simples nos dados carregados utilizando Pandas e Spark DataFrame.
-* *Exportação para Parquet*: Os dados foram exportados para o formato Parquet, para, finalmente, testar um formato de armazentamento em colunas.
+* *Exportação para Parquet*: Os dados foram exportados para o formato Parquet, para, finalmente, testar um formato de armazentamento colunar.
 
 ## Resultados
 Os resultados do benchmark indicam claramente a superioridade do Spark DataFrame em relação ao Pandas DataFrame em termos de desempenho e escalabilidade para consultas em grandes conjuntos de dados climáticos. A escolha do formato de armazenamento Parquet, com armazenamento em colunas, também contribuiu significativamente para a eficiência das consultas. Essas conclusões destacam a importância do processamento distribuído e do armazenamento adequado na análise de dados em larga escala.
