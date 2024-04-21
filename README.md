@@ -3,6 +3,7 @@
 ![Static Badge](https://img.shields.io/badge/google%20colab-%23F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
 ![Static Badge](https://img.shields.io/badge/apache%20spark-%23E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 ![Static Badge](https://img.shields.io/badge/apache%20parquet-%2350ABF1?style=for-the-badge&logo=apacheparquet&logoColor=white)
+![Static Badge](https://img.shields.io/badge/linux-%23FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 # Benchmark de Carregamento e Consulta de Dados Climáticos com Pandas e Spark
 Este projeto tem como objetivo realizar um benchmark de carregamento da base e de consulta de dados climáticos da WorldClim utilizando Pandas e Apache Spark para processamento de dados em diferentes escalas de resolução.
